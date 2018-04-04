@@ -1,24 +1,29 @@
-# README
+# Hiptime
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Hiptime App lets you manage your to-dos easily ☑️
 
-Things you may want to cover:
+## User Related Features
 
-* Ruby version
+Each feature manipulates or displays information related to Users.
 
-* System dependencies
+* _Signup_ : `Person can signup`
+* _Signin_ : `User can signin`
 
-* Configuration
+## To-Do Related Features
 
-* Database creation
+Each feature manipulates or displays information related to to-dos.
 
-* Database initialization
+* _Create To-do Item_ : `User can create a new to-do item`
 
-* How to run the test suite
+## Technology Stack
 
-* Services (job queues, cache servers, search engines, etc.)
+* Ruby on Rails 5.1.6
+* Ruby 2.5.1
 
-* Deployment instructions
+## Demo
 
-* ...
+_Coming Soon_ 😉
+
+## Credit(s)
+
+[Udemy Course by Yonathan Ayenew](https://www.udemy.com/8-beautiful-ruby-on-rails-apps-in-30-days/)
