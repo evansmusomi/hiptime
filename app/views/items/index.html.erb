@@ -6,14 +6,14 @@
         <!-- for completed items -->
           <div class="row item">
             <div class="col-md-2">
-              <p><%= link_to complete_item_path(item), method: :patch do %></p>
+              <p><%= link_to complete_item_path(item), method: :patch do %>
                 <i class="fa fa-check fa-lg"></i>
-              <% end %>
+              <% end %></p>
             </div>
             <div class="col-md-2">
-              <p><%= link_to item, method: :delete, data: {confirm: "Are you sure?" } do %></p>
+              <p><%= link_to item, method: :delete, data: {confirm: "Are you sure?" } do %>
                 <i class="fa fa-trash fa-lg"></i>
-              <% end %>
+              <% end %></p>
             </div>
 
             <div class="col-md-8">
@@ -26,9 +26,9 @@
         <!-- for incomplete items -->
           <div class="row item">
             <div class="col-md-2">
-              <p><%= link_to complete_item_path(item), method: :patch do %></p>
+              <p><%= link_to complete_item_path(item), method: :patch do %>
                 <i class="fa fa-check fa-lg"></i>
-              <% end %>
+              <% end %></p>
             </div>
 
             <div class="col-md-8">
@@ -38,9 +38,9 @@
             </div>
 
             <div class="col-md-2">
-              <p><%= link_to item, method: :delete, data: { confirm: "Are you sure?" } do %></p>
+              <p><%= link_to item, method: :delete, data: { confirm: "Are you sure?" } do %>
                 <i class="fa fa-trash fa-lg"></i>
-              <% end %>
+              <% end %></p>
             </div>
           </div>
         <% end %>
