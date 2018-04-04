@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :find_item, only: [:show, :edit, :update, :destroy]
+  before_action :find_item, only: [:show, :edit, :update, :destroy, :complete]
   before_action :authenticate_user!, except: [:show, :index]
 
   def index
@@ -39,6 +39,11 @@ class ItemsController < ApplicationController
 
   def destroy
     @item.destroy
+    redirect_to root_path
+  end
+
+  def complete
+    @item.update_attribute(:completed_at, Time.now)
     redirect_to root_path
   end
 
