@@ -28,7 +28,7 @@ Each feature manipulates or displays information related to to-dos.
 
 ## Demo
 
-_Coming Soon_ 😉
+[![Watch the Demo Video](https://github.com/evansmusomi/hiptime/blob/master/public/demo-video-preview.png)](https://www.useloom.com/share/af8ead6b2293458297e660d4f4e8511f)
 
 ## Credit(s)
 
